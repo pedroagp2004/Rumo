@@ -1,5 +1,5 @@
 // Rumo: guarda o app para abrir sem internet. Os dados ficam no IndexedDB, não aqui.
-const CACHE = 'rumo-v1';
+const CACHE = 'rumo-v3';
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png', './icons/favicon.png'];
 
 self.addEventListener('install', e => {
